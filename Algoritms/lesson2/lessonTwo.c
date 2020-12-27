@@ -1,11 +1,11 @@
 //
-//  lesson2.c
+//  lessonTwo.c
 //  Algoritms
 //
 //  Created by Aleksandr Pavlov on 21.12.2020.
 //
 
-#include "lesson2.h"
+#include "lessonTwo.h"
 #include <string.h>
 #include <stdlib.h>
 

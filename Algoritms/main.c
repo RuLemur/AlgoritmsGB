@@ -7,14 +7,15 @@
 
 #include <stdio.h>
 //#include "lessonOne.h"
-#include "lesson2.h"
+#include "lessonTwo.h"
 
 
 int main(){
     //task 1
     char result[255];
     toTwo(12123, &result, 0);
-
+    
+    //task 2
     
 /* lesson 1
 //    bodyIndex(80, 1.78);
