@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8157202598AF4100006CA6 /* lessonTwo.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A81571F2598AF4100006CA6 /* lessonTwo.c */; };
 		1A8157272598EB5400006CA6 /* lessonThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8157262598EB5400006CA6 /* lessonThree.c */; };
 		1AA2BAD5258967050002957A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2BAD4258967050002957A /* main.c */; };
 		1AA2BADB258973460002957A /* lessonOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2BADA258973460002957A /* lessonOne.c */; };
@@ -26,8 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A81571E2598AF4100006CA6 /* lessonTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lessonTwo.h; sourceTree = "<group>"; };
-		1A81571F2598AF4100006CA6 /* lessonTwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lessonTwo.c; sourceTree = "<group>"; };
 		1A8157252598EB5400006CA6 /* lessonThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lessonThree.h; sourceTree = "<group>"; };
 		1A8157262598EB5400006CA6 /* lessonThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lessonThree.c; sourceTree = "<group>"; };
 		1AA2BAC825895EC20002957A /* Algoritms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algoritms; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,15 +44,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A81571D2598AF1600006CA6 /* lesson2 */ = {
-			isa = PBXGroup;
-			children = (
-				1A81571E2598AF4100006CA6 /* lessonTwo.h */,
-				1A81571F2598AF4100006CA6 /* lessonTwo.c */,
-			);
-			path = lesson2;
-			sourceTree = "<group>";
-		};
 		1A8157242598EB4200006CA6 /* lesson3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				1A8157242598EB4200006CA6 /* lesson3 */,
-				1A81571D2598AF1600006CA6 /* lesson2 */,
 				1AA2BAD8258973390002957A /* lesson1 */,
 				1AA2BAD4258967050002957A /* main.c */,
 			);
@@ -158,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA2BADB258973460002957A /* lessonOne.c in Sources */,
-				1A8157202598AF4100006CA6 /* lessonTwo.c in Sources */,
 				1A8157272598EB5400006CA6 /* lessonThree.c in Sources */,
 				1AA2BAD5258967050002957A /* main.c in Sources */,
 			);
