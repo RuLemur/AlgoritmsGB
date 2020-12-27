@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 //#include "lessonOne.h"
-#include "les"
+#include "lesson2.h"
+
 
 int main(){
     //task 1

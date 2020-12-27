@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6F029A2598AB6900F92B1D /* lesson2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F02992598AB6900F92B1D /* lesson2.c */; };
 		1AA2BAD5258967050002957A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2BAD4258967050002957A /* main.c */; };
 		1AA2BADB258973460002957A /* lessonOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2BADA258973460002957A /* lessonOne.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A6F02982598AB6900F92B1D /* lesson2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lesson2.h; sourceTree = "<group>"; };
+		1A6F02992598AB6900F92B1D /* lesson2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lesson2.c; sourceTree = "<group>"; };
 		1AA2BAC825895EC20002957A /* Algoritms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algoritms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA2BAD4258967050002957A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		1AA2BAD9258973460002957A /* lessonOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lessonOne.h; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A6F02972598AB5900F92B1D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1A6F02982598AB6900F92B1D /* lesson2.h */,
+				1A6F02992598AB6900F92B1D /* lesson2.c */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		1AA2BABF25895EC20002957A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		1AA2BACA25895EC20002957A /* Algoritms */ = {
 			isa = PBXGroup;
 			children = (
+				1A6F02972598AB5900F92B1D /* New Group */,
 				1AA2BAD8258973390002957A /* lesson1 */,
 				1AA2BAD4258967050002957A /* main.c */,
 			);
@@ -133,6 +146,7 @@
 			files = (
 				1AA2BADB258973460002957A /* lessonOne.c in Sources */,
 				1AA2BAD5258967050002957A /* main.c in Sources */,
+				1A6F029A2598AB6900F92B1D /* lesson2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
