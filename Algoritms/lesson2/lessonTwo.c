@@ -55,11 +55,3 @@ int myPowRecursion( int a, int b){
     return a * myPowRecursion(a, b - 1);
 }
 
-/*
- 2. Реализовать функцию возведения числа a в степень b:
-
- c. *рекурсивно, используя свойство четности степени.
- */
-int myPowRecursionMath(int a, int b){
-    
-}

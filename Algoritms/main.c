@@ -11,16 +11,21 @@
 
 
 int main(){
+    
     //task 1
-//    char result[255];
-//    toTwo(12123, &result, 0);
+    char result[255];
+    toTwo(12123, &result, 0);
     
     //task 2
+        myPowFor(2,5);
+    printf("%d^%d=%d\n", 5 ,3, myPowRecursion(5, 3));
     
-//    myPowFor(2,5);
-//    printf("%d^%d=%.2f\n", 5 ,3, myPowRecursion(5, 3));
-    printf("%d^%d=%.2f\n", 5 ,3, myPowRecursionMath(5, 3));
-    
+    return 0;
+}
+
+
+
+
 /* lesson 1
 //    bodyIndex(80, 1.78);
 //    maxInFourDigits(6, 12, 1242, 112);
@@ -38,5 +43,3 @@ int main(){
 //    avtomormfDigits(9376);
     
 */
-    return 0;
-}
