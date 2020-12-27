@@ -12,4 +12,8 @@
 
 void toTwo(int dig, char (*result)[], int len);
 
+int myPowFor(int a, int b);
+int myPowRecursion( int a, int b);
+int myPowRecursionMath(int a, int b);
+
 #endif /* lessonTwo_h */

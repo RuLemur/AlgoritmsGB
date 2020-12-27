@@ -9,6 +9,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+/*
+ 1. Реализовать функцию перевода из десятичной системы в двоичную, используя рекурсию.
+ */
 void toTwo(int dig, char (*result)[], int len){
     
     if (dig <= 1) {
@@ -24,4 +27,39 @@ void toTwo(int dig, char (*result)[], int len){
 
         return toTwo(dig / 2, result, ++len);
     }
+}
+
+/*
+
+ a. без рекурсии;
+ */
+int myPowFor(int a, int b){
+    int res = 1;
+    int i;
+    
+    for (i=0; i<b; i++) {
+        res = res * a;
+    }
+    return res;
+}
+
+/*
+ 2. Реализовать функцию возведения числа a в степень b:
+
+ b. рекурсивно;
+ */
+int myPowRecursion( int a, int b){
+    if (b == 0) {
+        return 1;
+    }
+    return a * myPowRecursion(a, b - 1);
+}
+
+/*
+ 2. Реализовать функцию возведения числа a в степень b:
+
+ c. *рекурсивно, используя свойство четности степени.
+ */
+int myPowRecursionMath(int a, int b){
+    
 }
